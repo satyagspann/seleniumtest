@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IrctcTest]" parallel="none">
+  <parameter name="browser" value="Firefox"/>
+  <test name="IrctcTest Test(failed)" parallel="none">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.gspann.test.IrctcTest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.gspann.test.IrctcTest -->
+    </classes>
+  </test> <!-- IrctcTest Test(failed) -->
+</suite> <!-- Failed suite [IrctcTest] -->
